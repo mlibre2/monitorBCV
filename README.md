@@ -1,5 +1,7 @@
 # Monitor BCV - Tipo de Cambio 🇻🇪
 
+<img width="391" height="315" alt="en" src="https://github.com/mlibre2/monitorBCV/blob/main/img.jpg" />
+
 Un widget ligero y elegante para Windows desarrollado en **AutoIt** que permite consultar en tiempo real las tasas oficiales de divisas (USD y EUR) publicadas por el **Banco Central de Venezuela (BCV)**.
 
 ## ✨ Características
@@ -25,10 +27,6 @@ Un widget ligero y elegante para Windows desarrollado en **AutoIt** que permite 
 * **Comunicación:** WinHttp para peticiones web ( scraping de datos oficiales).
 * **Interfaz:** GUI personalizada con manejo de eventos de Windows (Win32 API).
 * **Regex:** Procesamiento de texto para la extracción precisa de valores numéricos del HTML.
-
-## 📸 Interfaz de Usuario
-
-<img width="391" height="315" alt="en" src="https://github.com/mlibre2/monitorBCV/blob/main/img.jpg" />
 
 ## 📂 Estructura del Código
 
