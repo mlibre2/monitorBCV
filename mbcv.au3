@@ -3,16 +3,19 @@
 #include <StaticConstants.au3>
 #include <FontConstants.au3>
 #include <SendMessage.au3>
-
-; --- Manejador de errores COM ---
-$oErrorHandler = ObjEvent("AutoIt.Error", "_ErrFunc")
+#include <Misc.au3>
 
 ; --- Variables de Estado Globales ---
 $g_bDarkMode = False
 Global $g_iBgColor, $g_iTextColor
 $g_iSecondaryColor = 0x888888
 $sTitle = "Monitor BCV"
-Const $sVersion = "1.0"
+Const $sVersion = "1.1"
+
+If Not _Singleton($sTitle, 1) Then Exit
+
+; --- Manejador de errores COM ---
+$oErrorHandler = ObjEvent("AutoIt.Error", "_ErrFunc")
 
 ; --- Elementos de Interfaz Globales ---
 Global $g_hGUI, $g_btnExit, $g_btnMin, $g_lblHeader, $g_lblUSD_Tag, $g_lblUSD, $g_lblEUR_Tag, $g_lblEUR, $g_lblStatus, $g_iconTheme, $g_iconRefresh, $g_btnCalc
