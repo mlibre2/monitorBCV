@@ -1,6 +1,6 @@
 # Monitor BCV - Tipo de Cambio 🇻🇪
 
-<img width="400" height="300" alt="en" src="https://github.com/mlibre2/monitorBCV/blob/main/img.jpg" />
+<img alt="mbcv" src="https://github.com/mlibre2/monitorBCV/blob/main/img.jpg" />
 
 Un widget ligero y elegante para Windows desarrollado en **AutoIt** que permite consultar en tiempo real las tasas oficiales de divisas (USD y EUR) publicadas por el **Banco Central de Venezuela (BCV)**.
 
